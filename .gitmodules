@@ -1,3 +1,6 @@
 [submodule "external/GitPython"]
 	path = external/GitPython
 	url = https://github.com/gitpython-developers/GitPython.git
+[submodule "external/python-gitlab"]
+	path = external/python-gitlab
+	url = https://github.com/python-gitlab/python-gitlab
