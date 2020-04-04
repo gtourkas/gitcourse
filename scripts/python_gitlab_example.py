@@ -36,7 +36,7 @@ class PythonGitlabExample():
         mrs = self.project.mergerequests.list(all=True, state='opened')
         print("All Merge Requests in project: %s" % self.project_name)
         for mr in mrs:
-            print("  Merge Requst ID: %d, Title: %s" % (mr.iid, mr.title))
+            print("  Merge Request ID: %d, Title: %s" % (mr.iid, mr.title))
             print('    Labels: ' + ','.join(mr.labels))
             closes = [str(c.iid) for c in mr.closes_issues()]
             print('    Closes Issues: ' + ','.join(closes))
